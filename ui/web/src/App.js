@@ -26,7 +26,7 @@ function App() {
             <Container fluid={true}>
                 <Switch>
                     <Route exact path={"/"} component={Login} />
-                    <Route exact path={"/users"}>
+                    <Route exact path={"/user-list"}>
                         <ProtectedRoute component={User_List} />
                     </Route>
                 </Switch>

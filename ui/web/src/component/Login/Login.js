@@ -24,7 +24,7 @@ function Login(props){
             setSuccess(res.data);
             setFail('');
             sessionStorage.setItem('login', true);
-            props.history.push('/users');
+            props.history.push('/user-list');
         })
         .catch((err)=>{
             setSuccess('');

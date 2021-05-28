@@ -34,15 +34,14 @@ function User_List(props){
     
     return(
         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 offset-xl-3 offset-lg-3 offset-md-3 offset-sm-3 mt-5">
-            
             {
                 fail && <Alert variant={"danger"}>{fail}</Alert>
             }
             <div>
                 <Button onClick={()=>onLogout()} variant={"danger"} size={"sm"}>Logout</Button>
             </div>
-            <div className={"mt-5"}>
-                <Table className={"table table-hover"}>
+            <div className={"mt-5 table-responsive"}>
+                <Table className={"table table-hover table-borderless table-striped"}>
                     <thead>
                         <tr>
                             <th>ID</th>
