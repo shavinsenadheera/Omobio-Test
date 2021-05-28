@@ -6,7 +6,7 @@ header("Content-Type=application/json;charset=UTF-8");
 header("Access-Control-Max-Age: 3600");
 
 include_once '../../controller/DbController.php';
-include_once '../../controller/LoginController.php';
+include_once '../../controller/UserController.php';
 
 $DbController = new DbController();
 $connection = $DbController->getConnection();
