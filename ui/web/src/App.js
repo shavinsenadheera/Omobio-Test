@@ -1,6 +1,15 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Container, Navbar, NavLink} from "react-bootstrap";
-import { BrowserRouter as Router ,Link, Switch, Route} from "react-router-dom";
+import {
+    Container,
+    Navbar,
+    NavLink
+} from "react-bootstrap";
+import {
+    BrowserRouter as Router ,
+    Link,
+    Switch,
+    Route
+} from "react-router-dom";
 import Login from "./component/Login/Login";
 import User_List from "./component/User/User_List";
 import ProtectedRoute from "./component/ProtectedRoute";

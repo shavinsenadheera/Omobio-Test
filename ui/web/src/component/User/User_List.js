@@ -1,6 +1,10 @@
 import React, {useEffect, useState} from "react";
 import axios from "axios";
-import {Alert, Button, Table} from "react-bootstrap";
+import {
+    Alert,
+    Button,
+    Table
+} from "react-bootstrap";
 import {useHistory} from "react-router-dom";
 
 function User_List(props){
