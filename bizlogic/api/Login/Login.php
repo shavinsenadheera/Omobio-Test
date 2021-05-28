@@ -15,7 +15,7 @@
 
     $LoginController = new LoginController($connection);
     $LoginController->username = isset($data->username) ? $data->username : die();
-    $LoginController->password = isset($data->username) ? $data->username : die();
+    $LoginController->password = isset($data->username) ? $data->password : die();
     $LoginController->login();
     $rowCount = $LoginController->rowCount;
     if($rowCount===1)
@@ -31,5 +31,5 @@
     else
     {
         http_response_code(404);
-        echo json_encode("user does not exist!");
+        echo json_encode("User does not exist!");
     }

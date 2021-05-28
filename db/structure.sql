@@ -28,7 +28,7 @@ use `Exam`;
 -- --------------------------------------------------------
 
 --
--- Table structure for table `User`
+-- Table structure for table `User_List`
 --
 
 CREATE TABLE `User` (
@@ -55,7 +55,7 @@ COMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 
 --
--- Indexes for table `User`
+-- Indexes for table `User_List`
 --
 ALTER TABLE `User`
     ADD PRIMARY KEY (`id`),
