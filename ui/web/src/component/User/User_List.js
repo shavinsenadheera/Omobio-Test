@@ -7,7 +7,7 @@ import {
 } from "react-bootstrap";
 import {useHistory} from "react-router-dom";
 
-function User_List(props){
+function User_List(){
     
     const [ users, setUsers ] = useState([])
     const [ fail, setFail ] = useState()
